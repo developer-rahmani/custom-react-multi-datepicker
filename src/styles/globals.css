@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./datepicker.css";
+
+*:focus{
+  outline : none
+}

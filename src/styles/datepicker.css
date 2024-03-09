@@ -1,0 +1,45 @@
+@layer datepicker-container {
+  .datepicker_container {
+    @apply bg-gray-700 border border-gray-600 !important;
+  }
+
+  .rmdp-month-picker,
+  .rmdp-year-picker {
+    @apply bg-gray-700 !important;
+  }
+
+  .datepicker_container i {
+    @apply border-white !important;
+  }
+
+  .datepicker_container .rmdp-range,
+  .datepicker_container span {
+    @apply shadow-none !important;
+  }
+
+  .rmdp-range,
+  .rmdp-selected {
+    @apply bg-gray-800 !important;
+  }
+
+  .rmdp-week-day,
+  .rmdp-header-values {
+    @apply text-white !important;
+  }
+
+  .rmdp-day:not(.rmdp-today, .rmdp-disabled) span {
+    @apply text-white !important;
+  }
+
+  .rmdp-day.rmdp-today span {
+    @apply bg-gray-900 text-gray-400 !important;
+  }
+
+  .rmdp-day.rmdp-disabled {
+    @apply text-white !important;
+  }
+
+  .rmdp-arrow-container:hover {
+    @apply bg-transparent shadow-none !important;
+  }
+}
